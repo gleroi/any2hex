@@ -1,4 +1,4 @@
-﻿# any2hex
+# any2hex
 
 **any2hex** is a small tool to convert anything to hexadecimal 
 
