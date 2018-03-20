@@ -71,7 +71,7 @@ func decimalToHex(inputs []string) {
 			fmt.Fprintf(os.Stderr, "could not parse decimal value: %s: %s\n", err, input)
 			continue
 		}
-		fmt.Fprintf(os.Stdout, "%X\n", data)
+		fmt.Fprintf(os.Stdout, "%02X\n", data)
 	}
 }
 
